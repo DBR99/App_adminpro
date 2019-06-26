@@ -17,6 +17,7 @@ import { ChartsModule } from 'ng2-charts';
 //temporal
 import {IncrementadorComponent} from '../components/incrementador/incrementador.component';
 import {GraficaCircularComponent} from '../components/grafica-circular/grafica-circular.component';
+import { AccountSettingsComponent } from './account-settings/account-settings.component';
 
 
 @NgModule({
@@ -26,7 +27,8 @@ import {GraficaCircularComponent} from '../components/grafica-circular/grafica-c
     ProgressComponent,
     Graficas1Component,
     IncrementadorComponent,
-    GraficaCircularComponent
+    GraficaCircularComponent,
+    AccountSettingsComponent
     ],
   exports: [
     DashboardComponent,

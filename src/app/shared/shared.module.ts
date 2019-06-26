@@ -4,8 +4,15 @@ import {HeaderComponent} from './header/header.component';
 import {SidebarComponent} from './sidebar/sidebar.component';
 import {BreadcrumsComponent} from './breadcrums/breadcrums.component';
 import {NopagefoundComponent} from '../nopagefound/nopagefound.component';
+import {RouterModule} from '@angular/router';
+import {CommonModule} from '@angular/common';
 
 @NgModule({
+  imports: [
+   RouterModule,
+    CommonModule
+    // el common module contiene directivas como el ngIf ngFor y uso de pipes
+  ],
   declarations: [
     NopagefoundComponent,
     HeaderComponent,
